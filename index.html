@@ -1,1 +1,251 @@
-hello aj
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>yoyoo设计</title>
+    <meta name="description" content="简单易用的原型设计工具，支持前端主流ui框架，通过简单拖拽即可生成高保真原型，赶快加入吧">
+    <meta name="keywords" content="yoyoo，原型设计工具，h5设计，动画设计">
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <link href="/favicon.ico" rel="icon">
+    <link href="/YOYOO.png" rel="apple-touch-icon">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(to bottom, purple, #342cff, purple);
+            color: #ffffff;
+            padding: 100px;
+            padding-top: 0;
+        }
+
+        body .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        .header nav {
+            padding: 20px 0 100px;
+        }
+
+        .header .logo img {
+            height: 40px;
+        }
+
+        .header .logo {
+            float: left;
+        }
+
+        .header ul {
+            overflow: hidden;
+            float: left;
+            padding-top: 10px;
+        }
+
+        .header li {
+            float: left;
+            margin-left: 50px;
+            font-size: 22px;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .app-title {
+            text-align: center;
+        }
+
+        .app-title h1 {
+            font-size: 36px;
+            font-weight: 400;
+            margin-bottom: 50px
+        }
+
+        .app-title .start {
+            background: linear-gradient(to right, #FF9800, #e91e63);
+            padding: 6px 30px;
+            border-radius: 32px;
+            font-size: 26px;
+            box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.1);
+            transition: all 300ms;
+
+        }
+
+        .app-title .start:hover {
+            background: linear-gradient(to right, #e91e63, #FF9800);
+            cursor: pointer;
+        }
+
+        .app-show {
+            margin-top: 100px;
+            padding: 15px;
+        }
+
+        .app-show img{
+            box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+        }
+        .app-show img, .image-wrapper img {
+            width: 100%;
+        }
+
+        .function {
+            overflow: hidden;
+            padding: 200px 0;
+        }
+
+        .function .left {
+            float: left;
+            width: 45%;
+        }
+
+        .function .right {
+            float: right;
+            width: 45%;
+        }
+
+        .function .desc {
+            font-size: 50px;
+        }
+
+        .function .image-wrapper {
+            overflow: hidden;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .function .extra {
+            font-size: 28px;
+            font-weight: 200px;
+            margin-top: 20px;
+            color: #f5f5f5;
+        }
+
+        @media screen and (max-width: 800px) {
+            body {
+                padding: 25px;
+                padding-top: 0;
+            }
+
+            .header .logo {
+                margin-right: 25px;
+                margin-bottom: 25px;
+            }
+
+            .header li {
+                margin-right: 25px;
+                margin-left: 0;
+            }
+
+            .app-title h1 {
+                font-size: 26px;
+            }
+
+            .function {
+                padding: 50px 0;
+            }
+
+            .function .left, .function .right {
+                width: 100%;
+                margin-top: 50px;
+                float: left;
+            }
+
+            .function .desc {
+                font-size: 26px;
+            }
+
+            .function .extra {
+                font-size: 18px;
+                margin-top: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+<main class="wrapper">
+    <header class="header">
+        <nav>
+            <div class="logo"><img alt="yoyoo原型" src="./YOYOO.png"></div>
+            <ul>
+                <li><a href="https://app.yoyoo.ink/">工作台</a></li>
+                <li><a href="https://www.fechat.ink/">FE前端社区</a></li>
+                <li><a href="https://www.fechat.ink/?nodeId=9&tags=0">教程</a></li>
+            </ul>
+        </nav>
+        <section style="margin-top: 100px">
+            <main class="app-title">
+                <h1>简单易用的原型设计工具</h1>
+                <div><a href="https://app.yoyoo.ink/" class="start">开始设计</a></div>
+            </main>
+        </section>
+
+        <section class="app-show">
+            <img alt="工作面板" style="border-radius: 10px" src="./demo.png"/>
+        </section>
+
+        <section class="function">
+            <div class="right">
+                <div class="desc">
+                    云端保存
+                    <div class="extra">
+                        所有操作实时保存到云端，即使在制作过程中意外断网断电，当网络恢复时仍能及时恢复数据
+                    </div>
+                </div>
+
+            </div>
+            <div class="left image-wrapper"><img src="./real_time.jpg"></div>
+        </section>
+        <section class="function">
+            <div class="left">
+                <div class="desc">
+                    实时预览
+                    <div class="extra">在多种设备上完美预览。也可以将产品分享给其他人，实时预览最新版本</div>
+                </div>
+            </div>
+            <div class="right image-wrapper"><img src="./demo_02.png"></div>
+        </section>
+
+        <section class="function">
+            <div class="right">
+                <div class="desc">
+                    偏好设置
+                    <div class="extra">
+                        通过自定义快捷键等设置来适应主流设计工具的操作习惯
+                    </div>
+                </div>
+            </div>
+            <div class="left image-wrapper"><img src="./speed.png"></div>
+        </section>
+
+        <section class="function">
+            <div class="left">
+                <div class="desc">
+                    交互、动画
+                    <div class="extra">
+                        内置主流Animate.css动画库，轻松搞定交互动画。让你的原型动起来
+                    </div>
+                </div>
+            </div>
+            <div class="right image-wrapper"><img src="./interactions.png"></div>
+        </section>
+
+
+    </header>
+</main>
+
+
+</body>
+</html>
