@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/yoyoo/static/css/main.b02e0cab.chunk.css",
+    "main.js": "/yoyoo/static/js/main.002a287f.chunk.js",
+    "main.js.map": "/yoyoo/static/js/main.002a287f.chunk.js.map",
+    "runtime-main.js": "/yoyoo/static/js/runtime-main.5bbfd879.js",
+    "runtime-main.js.map": "/yoyoo/static/js/runtime-main.5bbfd879.js.map",
+    "static/css/2.8a0fc0e9.chunk.css": "/yoyoo/static/css/2.8a0fc0e9.chunk.css",
+    "static/js/2.06c2bb6b.chunk.js": "/yoyoo/static/js/2.06c2bb6b.chunk.js",
+    "static/js/2.06c2bb6b.chunk.js.map": "/yoyoo/static/js/2.06c2bb6b.chunk.js.map",
+    "index.html": "/yoyoo/index.html",
+    "precache-manifest.799f4b79c470549c5a737c63da6d5da7.js": "/yoyoo/precache-manifest.799f4b79c470549c5a737c63da6d5da7.js",
+    "service-worker.js": "/yoyoo/service-worker.js",
+    "static/css/2.8a0fc0e9.chunk.css.map": "/yoyoo/static/css/2.8a0fc0e9.chunk.css.map",
+    "static/css/main.b02e0cab.chunk.css.map": "/yoyoo/static/css/main.b02e0cab.chunk.css.map",
+    "static/js/2.06c2bb6b.chunk.js.LICENSE.txt": "/yoyoo/static/js/2.06c2bb6b.chunk.js.LICENSE.txt",
+    "static/media/default_avatar.svg": "/yoyoo/static/media/default_avatar.b10962a4.svg",
+    "static/media/head.jpg": "/yoyoo/static/media/head.6e3e4632.jpg",
+    "static/media/iconfont.css": "/yoyoo/static/media/iconfont.dcbf36c4.svg",
+    "static/media/no_project.png": "/yoyoo/static/media/no_project.60e54276.png",
+    "static/media/sb.png": "/yoyoo/static/media/sb.66cd5f82.png",
+    "static/media/UserCenter.scss": "/yoyoo/static/media/ucenter_banner.da0be9f8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bbfd879.js",
+    "static/css/2.8a0fc0e9.chunk.css",
+    "static/js/2.06c2bb6b.chunk.js",
+    "static/css/main.b02e0cab.chunk.css",
+    "static/js/main.002a287f.chunk.js"
+  ]
+}
