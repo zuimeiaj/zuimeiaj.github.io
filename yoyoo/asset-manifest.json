@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/yoyoo/static/css/main.fa59b6c6.chunk.css",
-    "main.js": "/yoyoo/static/js/main.62b96949.chunk.js",
-    "main.js.map": "/yoyoo/static/js/main.62b96949.chunk.js.map",
+    "main.js": "/yoyoo/static/js/main.2496c397.chunk.js",
+    "main.js.map": "/yoyoo/static/js/main.2496c397.chunk.js.map",
     "runtime-main.js": "/yoyoo/static/js/runtime-main.5bbfd879.js",
     "runtime-main.js.map": "/yoyoo/static/js/runtime-main.5bbfd879.js.map",
     "static/css/2.8a0fc0e9.chunk.css": "/yoyoo/static/css/2.8a0fc0e9.chunk.css",
     "static/js/2.1d0a8aae.chunk.js": "/yoyoo/static/js/2.1d0a8aae.chunk.js",
     "static/js/2.1d0a8aae.chunk.js.map": "/yoyoo/static/js/2.1d0a8aae.chunk.js.map",
     "index.html": "/yoyoo/index.html",
-    "precache-manifest.f74e938d2dcc96e063fa03df62b27056.js": "/yoyoo/precache-manifest.f74e938d2dcc96e063fa03df62b27056.js",
+    "precache-manifest.8ae51ab2d0938748893aa92fcca02090.js": "/yoyoo/precache-manifest.8ae51ab2d0938748893aa92fcca02090.js",
     "service-worker.js": "/yoyoo/service-worker.js",
     "static/css/2.8a0fc0e9.chunk.css.map": "/yoyoo/static/css/2.8a0fc0e9.chunk.css.map",
     "static/css/main.fa59b6c6.chunk.css.map": "/yoyoo/static/css/main.fa59b6c6.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.8a0fc0e9.chunk.css",
     "static/js/2.1d0a8aae.chunk.js",
     "static/css/main.fa59b6c6.chunk.css",
-    "static/js/main.62b96949.chunk.js"
+    "static/js/main.2496c397.chunk.js"
   ]
 }

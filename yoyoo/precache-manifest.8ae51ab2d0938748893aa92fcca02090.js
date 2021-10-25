@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2bef3d1ce386a5a1f2f0fb586129695",
+    "revision": "0191a5cea774bcb5cd05ea1330e77442",
     "url": "/yoyoo/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yoyoo/static/css/2.8a0fc0e9.chunk.css"
   },
   {
-    "revision": "382fe7025ab6a0868558",
+    "revision": "82b3b07f3cbd986122ff",
     "url": "/yoyoo/static/css/main.fa59b6c6.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yoyoo/static/js/2.1d0a8aae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "382fe7025ab6a0868558",
-    "url": "/yoyoo/static/js/main.62b96949.chunk.js"
+    "revision": "82b3b07f3cbd986122ff",
+    "url": "/yoyoo/static/js/main.2496c397.chunk.js"
   },
   {
     "revision": "2597becaa8a65f4e7260",
