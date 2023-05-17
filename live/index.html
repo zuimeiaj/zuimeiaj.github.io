@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>阿军的直播间</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #live {
+        height: 100vh;
+        width: 100vw;
+      }
+      .play-btn {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 8px 15px;
+      }
+    </style>
+    <script src="./index.js"></script>
+    <script>
+      window.onload = function () {
+        const player = new QNRTPlayer.QNRTPlayer();
+        player.init();
+        window.player = player;
+      };
+
+      function play() {
+        console.log('play');
+        player.play('webrtc://pili-live-rtmp.ciicscjob.com/zzjoblive/jun', document.querySelector('#live'));
+      }
+    </script>
+  </head>
+  <body>
+    <div id="live"></div>
+    <button class="play-btn" onclick="play()">播放</button>
+  </body>
+</html>
