@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkaj_antd_components_test"]=self["webpackChunkaj_antd_components_test"]||[]).push([[7782],{47782:function(t,e,n){n.r(e),n.d(e,{default:function(){return d}});var a,u,l=n(63453),r={data(){return{value:""}},render(){const t=arguments[0];return t(l.MonthPicker,{attrs:{format:"YYYY-MM"},model:{value:this.value,callback:t=>{this.value=t}}})}},s=r,c=n(43736),o=(0,c.Z)(s,a,u,!1,null,null,null),d=o.exports}}]);
+//# sourceMappingURL=7782.5a1ff251.js.map

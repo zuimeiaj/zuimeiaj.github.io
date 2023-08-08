@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkaj_antd_components_test"]=self["webpackChunkaj_antd_components_test"]||[]).push([[6566],{16566:function(n,t,e){e.r(t),e.d(t,{default:function(){return d}});var u,s,r=e(63453),a={render(){const n=arguments[0];return n("div",[n(r.Amount,{attrs:{value:"100000000"}})])}},l=a,o=e(43736),c=(0,o.Z)(l,u,s,!1,null,null,null),d=c.exports}}]);
+//# sourceMappingURL=6566.10b6c88b.js.map

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkaj_antd_components_test"]=self["webpackChunkaj_antd_components_test"]||[]).push([[5161],{55161:function(e,t,n){n.r(t),n.d(t,{default:function(){return d}});var u,a,l=n(63453),s={data(){return{value:""}},render(){const e=arguments[0];return e("div",[e(l.RichText,{model:{value:this.value,callback:e=>{this.value=e}}})])}},r=s,c=n(43736),o=(0,c.Z)(r,u,a,!1,null,null,null),d=o.exports}}]);
+//# sourceMappingURL=5161.ab29eeff.js.map

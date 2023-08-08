@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkaj_antd_components_test"]=self["webpackChunkaj_antd_components_test"]||[]).push([[6633],{16633:function(n,t,e){e.r(t),e.d(t,{default:function(){return i}});var o,s,r=e(63453),u={render(){const n=arguments[0],t=()=>new Promise((n=>{r.CommonUtils.waitForSeconds(2).then(n)}));return n("div",[n(r.LoadingButton,{attrs:{click:t}},["点击后加载2秒后停止"])])}},a=u,c=e(43736),l=(0,c.Z)(a,o,s,!1,null,null,null),i=l.exports}}]);
+//# sourceMappingURL=6633.051bce11.js.map

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkaj_antd_components_test"]=self["webpackChunkaj_antd_components_test"]||[]).push([[4704],{4704:function(n,t,e){e.r(t),e.d(t,{default:function(){return d}});var s,o,r=e(63453),u={render(){const n=arguments[0],t=()=>new Promise((n=>{r.CommonUtils.waitForSeconds(.3).then(n)}));return n("div",[n(r.CountDown,{attrs:{senconds:10,normalText:"获取验证码",text:"{s} 秒后重新获取",send:t}})])}},a=u,l=e(43736),c=(0,l.Z)(a,s,o,!1,null,null,null),d=c.exports}}]);
+//# sourceMappingURL=4704.63335a0f.js.map

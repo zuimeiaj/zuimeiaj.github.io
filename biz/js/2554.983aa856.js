@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkaj_antd_components_test"]=self["webpackChunkaj_antd_components_test"]||[]).push([[2554],{72554:function(n,t,e){e.r(t),e.d(t,{default:function(){return d}});var u,r,s=e(63453),a={render(){const n=arguments[0];return n("div",[n(s.Clipboard,{attrs:{value:"点击我复制"}},["点击我复制"])])}},l=a,o=e(43736),c=(0,o.Z)(l,u,r,!1,null,null,null),d=c.exports}}]);
+//# sourceMappingURL=2554.983aa856.js.map

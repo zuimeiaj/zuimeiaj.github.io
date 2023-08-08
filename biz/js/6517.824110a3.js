@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkaj_antd_components_test"]=self["webpackChunkaj_antd_components_test"]||[]).push([[6517],{76517:function(t,n,a){a.r(n),a.d(n,{default:function(){return c}});var e,l,r=a(63453),s={render(){const t=arguments[0],n=new Array(10).fill(0).map(((t,n)=>({title:"列"+n,dataIndex:n}))),a={};return t("div",["params 变化时会重新请求接口,请求默认为post 方式",t(r.DataTable,{attrs:{url:"/getlist",columns:n,param:a}})])}},u=s,o=a(43736),p=(0,o.Z)(u,e,l,!1,null,null,null),c=p.exports}}]);
+//# sourceMappingURL=6517.824110a3.js.map

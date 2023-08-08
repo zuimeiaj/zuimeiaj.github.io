@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkaj_antd_components_test"]=self["webpackChunkaj_antd_components_test"]||[]).push([[9787],{9787:function(t,n,e){e.r(n),e.d(n,{default:function(){return p}});var u,a,r={data(){return{}},render(){const t=arguments[0];return t("div",{class:"app-page gutter"})}},s=r,l=e(43736),c=(0,l.Z)(s,u,a,!1,null,null,null),p=c.exports}}]);
+//# sourceMappingURL=9787.5ac84d13.js.map
