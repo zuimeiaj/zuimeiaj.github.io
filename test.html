@@ -1,0 +1,131 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .row {
+        display: flex;
+        border-bottom: 1px solid #ececec;
+      }
+      .row span {
+        display: block;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div><label>初始金额</label> <input value="45000" id="initAmount" /></div>
+      <div>
+        <label>初始数量</label>
+        <input value="4500" id="initCount" />
+      </div>
+
+      <div>
+        <label>加价比例</label>
+        <input value="10" id="plusRate" />
+      </div>
+      <div>
+        <label>加价金额</label>
+        <input value="50000" id="plusAmount" />
+      </div>
+      <div>
+        <label>叠加金额</label>
+        <input value="5000" id="overAmount" />
+      </div>
+      <div>
+        <label>加价次数</label>
+        <input value="10" id="plusCount" />
+      </div>
+      <div><button onclick="calc()">计算成本</button></div>
+
+      <div>
+        <div class="row">
+          <span>当前价格</span>
+          <span>加价笔数</span>
+          <span>当前总笔数</span>
+          <span>当前总额</span>
+          <span>历史总额</span>
+          <span>亏损总额</span>
+          <span>亏损比例</span>
+          <span>累计跌幅</span>
+        </div>
+        <div id="result"></div>
+      </div>
+    </div>
+
+    <script>
+      function getDom(id) {
+        return document.querySelector('#' + id)
+      }
+
+      let initAmountDom = getDom('initAmount')
+      let initCountDom = getDom('initCount')
+      let plusRateDom = getDom('plusRate')
+      let plusAmountDom = getDom('plusAmount')
+      let overAmountDom = getDom('overAmount')
+      let plusCountDom = getDom('plusCount')
+      let resultDom = getDom('result')
+
+      // 初始成本
+      let initAmount = +initAmountDom.value
+      let initCount = +initCountDom.value
+      // 每笔价格
+      let initCost = initAmount / initCount
+      let fixedCost = initCost
+      let overAmount = +overAmountDom.value
+      let overAmountInit = 0
+      function calcNum() {
+        overAmountInit += overAmount
+        // 下一笔价格
+        let nextAmount = +(initCost - initCost * (plusRateDom.value / 100)).toFixed(2)
+        // 加价笔数
+        let nextCount = Math.floor((+plusAmountDom.value + overAmountInit) / nextAmount)
+
+        // 累计笔数
+        let toatalCount = initCount + nextCount
+        // 剩余累计金额
+        let totalAmount = +(toatalCount * nextAmount).toFixed(2)
+        // 历史累计金额
+        initAmount = +(initAmount + +plusAmountDom.value + overAmountInit).toFixed(2)
+        initCost = nextAmount
+        initCount = toatalCount
+        // 累计亏损
+        let lossAmount = +(initAmount - totalAmount).toFixed(2)
+        // 累计亏损比例
+        let lossRate = +((lossAmount / initAmount) * 100).toFixed(2)
+        let totalLossRate = ((1 - nextAmount / fixedCost) * 100).toFixed(2)
+        let html = `<div class="row">
+            <span>${nextAmount}</span>
+            <span>${nextCount}</span>
+            <span>${toatalCount}</span>
+            <span>${totalAmount}</span>
+            <span>${initAmount}</span>
+            <span>${lossAmount}</span>
+            <span>${lossRate}%</span>
+            <span>${totalLossRate}%</span>
+            </div>`
+        return html
+      }
+
+      function calc() {
+        // 初始成本
+        initAmount = +initAmountDom.value
+        initCount = +initCountDom.value
+        // 每笔价格
+        initCost = initAmount / initCount
+        fixedCost = initCost
+        overAmount = +overAmountDom.value
+        overAmountInit = 0
+        let htmls = []
+        let count = +plusCountDom.value
+        for (let index = 0; index < count; index++) {
+          htmls.push(calcNum())
+        }
+        resultDom.innerHTML = htmls.join('')
+      }
+    </script>
+  </body>
+</html>
