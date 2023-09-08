@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/yoyoo/static/css/main.49d31df9.chunk.css",
-    "main.js": "/yoyoo/static/js/main.c92c0561.chunk.js",
-    "main.js.map": "/yoyoo/static/js/main.c92c0561.chunk.js.map",
+    "main.js": "/yoyoo/static/js/main.c7d60c5b.chunk.js",
+    "main.js.map": "/yoyoo/static/js/main.c7d60c5b.chunk.js.map",
     "runtime-main.js": "/yoyoo/static/js/runtime-main.03007971.js",
     "runtime-main.js.map": "/yoyoo/static/js/runtime-main.03007971.js.map",
     "static/css/2.d6aa739a.chunk.css": "/yoyoo/static/css/2.d6aa739a.chunk.css",
-    "static/js/2.5d946f6b.chunk.js": "/yoyoo/static/js/2.5d946f6b.chunk.js",
-    "static/js/2.5d946f6b.chunk.js.map": "/yoyoo/static/js/2.5d946f6b.chunk.js.map",
+    "static/js/2.f05da0cf.chunk.js": "/yoyoo/static/js/2.f05da0cf.chunk.js",
+    "static/js/2.f05da0cf.chunk.js.map": "/yoyoo/static/js/2.f05da0cf.chunk.js.map",
     "index.html": "/yoyoo/index.html",
-    "precache-manifest.746e824604c0f6cf12f1ce519c35945e.js": "/yoyoo/precache-manifest.746e824604c0f6cf12f1ce519c35945e.js",
+    "precache-manifest.1246670a3b54cf85637eebbb3a86b5c2.js": "/yoyoo/precache-manifest.1246670a3b54cf85637eebbb3a86b5c2.js",
     "service-worker.js": "/yoyoo/service-worker.js",
     "static/css/2.d6aa739a.chunk.css.map": "/yoyoo/static/css/2.d6aa739a.chunk.css.map",
     "static/css/main.49d31df9.chunk.css.map": "/yoyoo/static/css/main.49d31df9.chunk.css.map",
-    "static/js/2.5d946f6b.chunk.js.LICENSE.txt": "/yoyoo/static/js/2.5d946f6b.chunk.js.LICENSE.txt",
-    "static/js/main.c92c0561.chunk.js.LICENSE.txt": "/yoyoo/static/js/main.c92c0561.chunk.js.LICENSE.txt",
+    "static/js/2.f05da0cf.chunk.js.LICENSE.txt": "/yoyoo/static/js/2.f05da0cf.chunk.js.LICENSE.txt",
+    "static/js/main.c7d60c5b.chunk.js.LICENSE.txt": "/yoyoo/static/js/main.c7d60c5b.chunk.js.LICENSE.txt",
     "static/media/app-icon.png": "/yoyoo/static/media/app-icon.99a62daa.png",
     "static/media/head.jpg": "/yoyoo/static/media/head.6e3e4632.jpg",
     "static/media/iconfont.css": "/yoyoo/static/media/iconfont.dcbf36c4.svg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.03007971.js",
     "static/css/2.d6aa739a.chunk.css",
-    "static/js/2.5d946f6b.chunk.js",
+    "static/js/2.f05da0cf.chunk.js",
     "static/css/main.49d31df9.chunk.css",
-    "static/js/main.c92c0561.chunk.js"
+    "static/js/main.c7d60c5b.chunk.js"
   ]
 }
